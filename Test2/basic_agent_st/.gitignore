@@ -12,5 +12,4 @@ cmake-build-release
 cmake-build-debug
 
 lib/libagent_lib.a
-matlab/
-Icon
+
