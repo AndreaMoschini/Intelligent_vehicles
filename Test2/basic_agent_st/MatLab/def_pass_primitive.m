@@ -1,11 +1,11 @@
-%%
+    %%
 %           Agent Logic
 %         Pass Primitive
 %              2024
 %
 %
 %% Pass primitive %%
-addpath('build');
+%addpath('build');
 
 %% Determine the optimal final velocity to pass %%
 final_opt_vel_pass_var = solve(diff(subs(total_cost_var,af,0),vf)==0,vf);
@@ -25,7 +25,7 @@ time_min_vel_fun = matlabFunction(time_min_vel_var(2),'Vars',[a0,sf],'File','tim
 if ~isfolder('build')
     mkdir('build');
 end
-movefile('final_opt_vel_pass.m','build');
-movefile('final_opt_time_pass.m','build');
-movefile('time_min_vel.m','build');
+%movefile('final_opt_vel_pass.m','build');
+%movefile('final_opt_time_pass.m','build');
+%movefile('time_min_vel.m','build');
 

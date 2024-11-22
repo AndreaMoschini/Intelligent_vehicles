@@ -8,7 +8,7 @@ set(CMAKE_CXX_STANDARD 11)
 include(lib/basic.cmake)
 
 include_directories(
-        matlab/
+        MatLab/codegen/lib/primitives
         lib
         log
 )

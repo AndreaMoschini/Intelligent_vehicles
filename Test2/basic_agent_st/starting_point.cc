@@ -16,7 +16,7 @@ extern "C" {
 #include "logvars.h"
 
 // --- MATLAB PRIMITIVES INCLUDE ---
-// #include "primitives.h"
+#include "primitives.h"
 // --- MATLAB PRIMITIVES INCLUDE ---
 
 #define DEFAULT_SERVER_IP    "127.0.0.1"
