@@ -5,7 +5,7 @@
 // File: primitives.h
 //
 // MATLAB Coder version            : 24.2
-// C/C++ source code generated on  : 22-Nov-2024 12:57:44
+// C/C++ source code generated on  : 27-Nov-2024 16:53:14
 //
 
 #ifndef PRIMITIVES_H
@@ -23,11 +23,22 @@ extern double a_opt(double t, double v0, double a0, double sf, double vf,
 extern void coef_list(double v0, double a0, double sf, double vf, double af,
                       double T, double coef_list_var[6]);
 
+extern double final_opt_pos_stop_zero_jerk(double v0, double a0, double T);
+
 extern double final_opt_time_pass(double v0, double a0, double sf, double vf);
+
+extern void
+final_opt_time_pass_zero_jerk(double v0, double a0, double sf,
+                              double final_opt_time_pass_zero_jerk_var[2]);
 
 extern double final_opt_time_stop(double v0, double a0, double sf);
 
+extern double final_opt_time_stop_zero_jerk(double v0, double a0);
+
 extern double final_opt_vel_pass(double v0, double a0, double sf, double T);
+
+extern double final_opt_vel_pass_zero_jerk(double v0, double a0, double sf,
+                                           double T);
 
 extern double j_opt(double t, double v0, double a0, double sf, double vf,
                     double af, double T);
@@ -36,6 +47,10 @@ extern void pass_primitive(double v0, double a0, double sf, double vfmin,
                            double vfmax, double Tmin, double Tmax,
                            double coeffsT2[6], double *v2, double *T2,
                            double coeffsT1[6], double *v1, double *T1);
+
+extern void pass_primitive_j0(double v0, double a0, double sf, double vfmin,
+                              double vfmax, double coefsj0[6], double *vfj0,
+                              double *tfj0);
 
 extern void primitives_initialize();
 
@@ -46,6 +61,9 @@ extern double s_opt(double t, double v0, double a0, double sf, double vf,
 
 extern void stop_primitive(double v0, double a0, double sf, double coefs[6],
                            double *maxsf, double *tf);
+
+extern void stop_primitive_j0(double v0, double a0, double coefsj0[6],
+                              double *sfj0, double *tfj0);
 
 extern double time_min_vel(double a0, double sf);
 

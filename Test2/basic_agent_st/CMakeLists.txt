@@ -8,6 +8,7 @@ set(CMAKE_CXX_STANDARD 11)
 include(lib/basic.cmake)
 
 include_directories(
+        MatLab/
         MatLab/codegen/lib/primitives
         lib
         log
@@ -22,6 +23,11 @@ add_executable(basic_agent
         log/screen_print.c
         log/logvars.cc
         starting_point.cc
+        MatLab/codegen/lib/primitives/rt_nonfinite.cpp
+        MatLab/codegen/lib/primitives/primitives.cpp
+        MatLab/codegen/lib/primitives/tmwtypes.h
+
+
     )
 
 

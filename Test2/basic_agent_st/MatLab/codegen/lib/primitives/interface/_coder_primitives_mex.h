@@ -5,7 +5,7 @@
 // File: _coder_primitives_mex.h
 //
 // MATLAB Coder version            : 24.2
-// C/C++ source code generated on  : 22-Nov-2024 12:57:44
+// C/C++ source code generated on  : 27-Nov-2024 16:53:14
 //
 
 #ifndef _CODER_PRIMITIVES_MEX_H
@@ -28,26 +28,52 @@ void unsafe_a_opt_mexFunction(int32_T nlhs, mxArray *plhs[1], int32_T nrhs,
 void unsafe_coef_list_mexFunction(int32_T nlhs, mxArray *plhs[1], int32_T nrhs,
                                   const mxArray *prhs[6]);
 
+void unsafe_final_opt_pos_stop_zero_jerk_mexFunction(int32_T nlhs,
+                                                     mxArray *plhs[1],
+                                                     int32_T nrhs,
+                                                     const mxArray *prhs[3]);
+
 void unsafe_final_opt_time_pass_mexFunction(int32_T nlhs, mxArray *plhs[1],
                                             int32_T nrhs,
                                             const mxArray *prhs[4]);
+
+void unsafe_final_opt_time_pass_zero_jerk_mexFunction(int32_T nlhs,
+                                                      mxArray *plhs[1],
+                                                      int32_T nrhs,
+                                                      const mxArray *prhs[3]);
 
 void unsafe_final_opt_time_stop_mexFunction(int32_T nlhs, mxArray *plhs[1],
                                             int32_T nrhs,
                                             const mxArray *prhs[3]);
 
+void unsafe_final_opt_time_stop_zero_jerk_mexFunction(int32_T nlhs,
+                                                      mxArray *plhs[1],
+                                                      int32_T nrhs,
+                                                      const mxArray *prhs[2]);
+
 void unsafe_final_opt_vel_pass_mexFunction(int32_T nlhs, mxArray *plhs[1],
                                            int32_T nrhs,
                                            const mxArray *prhs[4]);
 
+void unsafe_final_opt_vel_pass_zero_jerk_mexFunction(int32_T nlhs,
+                                                     mxArray *plhs[1],
+                                                     int32_T nrhs,
+                                                     const mxArray *prhs[4]);
+
 void unsafe_j_opt_mexFunction(int32_T nlhs, mxArray *plhs[1], int32_T nrhs,
                               const mxArray *prhs[7]);
+
+void unsafe_pass_primitive_j0_mexFunction(int32_T nlhs, mxArray *plhs[3],
+                                          int32_T nrhs, const mxArray *prhs[5]);
 
 void unsafe_pass_primitive_mexFunction(int32_T nlhs, mxArray *plhs[6],
                                        int32_T nrhs, const mxArray *prhs[7]);
 
 void unsafe_s_opt_mexFunction(int32_T nlhs, mxArray *plhs[1], int32_T nrhs,
                               const mxArray *prhs[7]);
+
+void unsafe_stop_primitive_j0_mexFunction(int32_T nlhs, mxArray *plhs[3],
+                                          int32_T nrhs, const mxArray *prhs[2]);
 
 void unsafe_stop_primitive_mexFunction(int32_T nlhs, mxArray *plhs[3],
                                        int32_T nrhs, const mxArray *prhs[3]);

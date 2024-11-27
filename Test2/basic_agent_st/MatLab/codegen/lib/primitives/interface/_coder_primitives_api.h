@@ -5,7 +5,7 @@
 // File: _coder_primitives_api.h
 //
 // MATLAB Coder version            : 24.2
-// C/C++ source code generated on  : 22-Nov-2024 12:57:44
+// C/C++ source code generated on  : 27-Nov-2024 16:53:14
 //
 
 #ifndef _CODER_PRIMITIVES_API_H
@@ -33,19 +33,40 @@ void coef_list(real_T v0, real_T a0, real_T sf, real_T vf, real_T af, real_T T,
 
 void coef_list_api(const mxArray *const prhs[6], const mxArray **plhs);
 
+real_T final_opt_pos_stop_zero_jerk(real_T v0, real_T a0, real_T T);
+
+void final_opt_pos_stop_zero_jerk_api(const mxArray *const prhs[3],
+                                      const mxArray **plhs);
+
 real_T final_opt_time_pass(real_T v0, real_T a0, real_T sf, real_T vf);
 
 void final_opt_time_pass_api(const mxArray *const prhs[4],
                              const mxArray **plhs);
+
+void final_opt_time_pass_zero_jerk(real_T v0, real_T a0, real_T sf,
+                                   real_T final_opt_time_pass_zero_jerk_var[2]);
+
+void final_opt_time_pass_zero_jerk_api(const mxArray *const prhs[3],
+                                       const mxArray **plhs);
 
 real_T final_opt_time_stop(real_T v0, real_T a0, real_T sf);
 
 void final_opt_time_stop_api(const mxArray *const prhs[3],
                              const mxArray **plhs);
 
+real_T final_opt_time_stop_zero_jerk(real_T v0, real_T a0);
+
+void final_opt_time_stop_zero_jerk_api(const mxArray *const prhs[2],
+                                       const mxArray **plhs);
+
 real_T final_opt_vel_pass(real_T v0, real_T a0, real_T sf, real_T T);
 
 void final_opt_vel_pass_api(const mxArray *const prhs[4], const mxArray **plhs);
+
+real_T final_opt_vel_pass_zero_jerk(real_T v0, real_T a0, real_T sf, real_T T);
+
+void final_opt_vel_pass_zero_jerk_api(const mxArray *const prhs[4],
+                                      const mxArray **plhs);
 
 real_T j_opt(real_T t, real_T v0, real_T a0, real_T sf, real_T vf, real_T af,
              real_T T);
@@ -58,6 +79,13 @@ void pass_primitive(real_T v0, real_T a0, real_T sf, real_T vfmin, real_T vfmax,
 
 void pass_primitive_api(const mxArray *const prhs[7], int32_T nlhs,
                         const mxArray *plhs[6]);
+
+void pass_primitive_j0(real_T v0, real_T a0, real_T sf, real_T vfmin,
+                       real_T vfmax, real_T coefsj0[6], real_T *vfj0,
+                       real_T *tfj0);
+
+void pass_primitive_j0_api(const mxArray *const prhs[5], int32_T nlhs,
+                           const mxArray *plhs[3]);
 
 void primitives_atexit();
 
@@ -79,6 +107,12 @@ void stop_primitive(real_T v0, real_T a0, real_T sf, real_T coefs[6],
 
 void stop_primitive_api(const mxArray *const prhs[3], int32_T nlhs,
                         const mxArray *plhs[3]);
+
+void stop_primitive_j0(real_T v0, real_T a0, real_T coefsj0[6], real_T *sfj0,
+                       real_T *tfj0);
+
+void stop_primitive_j0_api(const mxArray *const prhs[2], int32_T nlhs,
+                           const mxArray *plhs[3]);
 
 real_T time_min_vel(real_T a0, real_T sf);
 

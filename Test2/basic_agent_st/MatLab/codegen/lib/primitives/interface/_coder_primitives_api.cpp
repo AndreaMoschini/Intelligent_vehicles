@@ -5,7 +5,7 @@
 // File: _coder_primitives_api.cpp
 //
 // MATLAB Coder version            : 24.2
-// C/C++ source code generated on  : 22-Nov-2024 12:57:44
+// C/C++ source code generated on  : 27-Nov-2024 16:53:14
 //
 
 // Include Files
@@ -30,6 +30,8 @@ emlrtContext emlrtContextGlobal{
 // Function Declarations
 static real_T b_emlrt_marshallIn(const emlrtStack &sp, const mxArray *src,
                                  const emlrtMsgIdentifier *msgId);
+
+static const mxArray *b_emlrt_marshallOut(real_T u[2]);
 
 static void emlrtExitTimeCleanupDtorFcn(const void *r);
 
@@ -63,27 +65,30 @@ static real_T b_emlrt_marshallIn(const emlrtStack &sp, const mxArray *src,
 }
 
 //
+// Arguments    : real_T u[2]
+// Return Type  : const mxArray *
+//
+static const mxArray *b_emlrt_marshallOut(real_T u[2])
+{
+  static const int32_T i{0};
+  static const int32_T i1{2};
+  const mxArray *m;
+  const mxArray *y;
+  y = nullptr;
+  m = emlrtCreateNumericArray(1, (const void *)&i, mxDOUBLE_CLASS, mxREAL);
+  emlrtMxSetData((mxArray *)m, &u[0]);
+  emlrtSetDimensions((mxArray *)m, &i1, 1);
+  emlrtAssign(&y, m);
+  return y;
+}
+
+//
 // Arguments    : const void *r
 // Return Type  : void
 //
 static void emlrtExitTimeCleanupDtorFcn(const void *r)
 {
   emlrtExitTimeCleanup(&emlrtContextGlobal);
-}
-
-//
-// Arguments    : const emlrtStack &sp
-//                const mxArray *u
-//                const emlrtMsgIdentifier *parentId
-// Return Type  : real_T
-//
-static real_T emlrt_marshallIn(const emlrtStack &sp, const mxArray *u,
-                               const emlrtMsgIdentifier *parentId)
-{
-  real_T y;
-  y = b_emlrt_marshallIn(sp, emlrtAlias(u), parentId);
-  emlrtDestroyArray(&u);
-  return y;
 }
 
 //
@@ -102,6 +107,21 @@ static real_T emlrt_marshallIn(const emlrtStack &sp, const mxArray *b_nullptr,
   thisId.bParentIsCell = false;
   y = emlrt_marshallIn(sp, emlrtAlias(b_nullptr), &thisId);
   emlrtDestroyArray(&b_nullptr);
+  return y;
+}
+
+//
+// Arguments    : const emlrtStack &sp
+//                const mxArray *u
+//                const emlrtMsgIdentifier *parentId
+// Return Type  : real_T
+//
+static real_T emlrt_marshallIn(const emlrtStack &sp, const mxArray *u,
+                               const emlrtMsgIdentifier *parentId)
+{
+  real_T y;
+  y = b_emlrt_marshallIn(sp, emlrtAlias(u), parentId);
+  emlrtDestroyArray(&u);
   return y;
 }
 
@@ -206,6 +226,33 @@ void coef_list_api(const mxArray *const prhs[6], const mxArray **plhs)
 }
 
 //
+// Arguments    : const mxArray * const prhs[3]
+//                const mxArray **plhs
+// Return Type  : void
+//
+void final_opt_pos_stop_zero_jerk_api(const mxArray *const prhs[3],
+                                      const mxArray **plhs)
+{
+  emlrtStack st{
+      nullptr, // site
+      nullptr, // tls
+      nullptr  // prev
+  };
+  real_T T;
+  real_T a0;
+  real_T v0;
+  st.tls = emlrtRootTLSGlobal;
+  // Marshall function inputs
+  v0 = emlrt_marshallIn(st, emlrtAliasP(prhs[0]), "v0");
+  a0 = emlrt_marshallIn(st, emlrtAliasP(prhs[1]), "a0");
+  T = emlrt_marshallIn(st, emlrtAliasP(prhs[2]), "T");
+  // Invoke the target function
+  v0 = final_opt_pos_stop_zero_jerk(v0, a0, T);
+  // Marshall function outputs
+  *plhs = emlrt_marshallOut(v0);
+}
+
+//
 // Arguments    : const mxArray * const prhs[4]
 //                const mxArray **plhs
 // Return Type  : void
@@ -238,6 +285,35 @@ void final_opt_time_pass_api(const mxArray *const prhs[4], const mxArray **plhs)
 //                const mxArray **plhs
 // Return Type  : void
 //
+void final_opt_time_pass_zero_jerk_api(const mxArray *const prhs[3],
+                                       const mxArray **plhs)
+{
+  emlrtStack st{
+      nullptr, // site
+      nullptr, // tls
+      nullptr  // prev
+  };
+  real_T(*final_opt_time_pass_zero_jerk_var)[2];
+  real_T a0;
+  real_T sf;
+  real_T v0;
+  st.tls = emlrtRootTLSGlobal;
+  final_opt_time_pass_zero_jerk_var = (real_T(*)[2])mxMalloc(sizeof(real_T[2]));
+  // Marshall function inputs
+  v0 = emlrt_marshallIn(st, emlrtAliasP(prhs[0]), "v0");
+  a0 = emlrt_marshallIn(st, emlrtAliasP(prhs[1]), "a0");
+  sf = emlrt_marshallIn(st, emlrtAliasP(prhs[2]), "sf");
+  // Invoke the target function
+  final_opt_time_pass_zero_jerk(v0, a0, sf, *final_opt_time_pass_zero_jerk_var);
+  // Marshall function outputs
+  *plhs = b_emlrt_marshallOut(*final_opt_time_pass_zero_jerk_var);
+}
+
+//
+// Arguments    : const mxArray * const prhs[3]
+//                const mxArray **plhs
+// Return Type  : void
+//
 void final_opt_time_stop_api(const mxArray *const prhs[3], const mxArray **plhs)
 {
   emlrtStack st{
@@ -255,6 +331,31 @@ void final_opt_time_stop_api(const mxArray *const prhs[3], const mxArray **plhs)
   sf = emlrt_marshallIn(st, emlrtAliasP(prhs[2]), "sf");
   // Invoke the target function
   v0 = final_opt_time_stop(v0, a0, sf);
+  // Marshall function outputs
+  *plhs = emlrt_marshallOut(v0);
+}
+
+//
+// Arguments    : const mxArray * const prhs[2]
+//                const mxArray **plhs
+// Return Type  : void
+//
+void final_opt_time_stop_zero_jerk_api(const mxArray *const prhs[2],
+                                       const mxArray **plhs)
+{
+  emlrtStack st{
+      nullptr, // site
+      nullptr, // tls
+      nullptr  // prev
+  };
+  real_T a0;
+  real_T v0;
+  st.tls = emlrtRootTLSGlobal;
+  // Marshall function inputs
+  v0 = emlrt_marshallIn(st, emlrtAliasP(prhs[0]), "v0");
+  a0 = emlrt_marshallIn(st, emlrtAliasP(prhs[1]), "a0");
+  // Invoke the target function
+  v0 = final_opt_time_stop_zero_jerk(v0, a0);
   // Marshall function outputs
   *plhs = emlrt_marshallOut(v0);
 }
@@ -283,6 +384,35 @@ void final_opt_vel_pass_api(const mxArray *const prhs[4], const mxArray **plhs)
   T = emlrt_marshallIn(st, emlrtAliasP(prhs[3]), "T");
   // Invoke the target function
   v0 = final_opt_vel_pass(v0, a0, sf, T);
+  // Marshall function outputs
+  *plhs = emlrt_marshallOut(v0);
+}
+
+//
+// Arguments    : const mxArray * const prhs[4]
+//                const mxArray **plhs
+// Return Type  : void
+//
+void final_opt_vel_pass_zero_jerk_api(const mxArray *const prhs[4],
+                                      const mxArray **plhs)
+{
+  emlrtStack st{
+      nullptr, // site
+      nullptr, // tls
+      nullptr  // prev
+  };
+  real_T T;
+  real_T a0;
+  real_T sf;
+  real_T v0;
+  st.tls = emlrtRootTLSGlobal;
+  // Marshall function inputs
+  v0 = emlrt_marshallIn(st, emlrtAliasP(prhs[0]), "v0");
+  a0 = emlrt_marshallIn(st, emlrtAliasP(prhs[1]), "a0");
+  sf = emlrt_marshallIn(st, emlrtAliasP(prhs[2]), "sf");
+  T = emlrt_marshallIn(st, emlrtAliasP(prhs[3]), "T");
+  // Invoke the target function
+  v0 = final_opt_vel_pass_zero_jerk(v0, a0, sf, T);
   // Marshall function outputs
   *plhs = emlrt_marshallOut(v0);
 }
@@ -378,6 +508,48 @@ void pass_primitive_api(const mxArray *const prhs[7], int32_T nlhs,
   }
   if (nlhs > 5) {
     plhs[5] = emlrt_marshallOut(T1);
+  }
+}
+
+//
+// Arguments    : const mxArray * const prhs[5]
+//                int32_T nlhs
+//                const mxArray *plhs[3]
+// Return Type  : void
+//
+void pass_primitive_j0_api(const mxArray *const prhs[5], int32_T nlhs,
+                           const mxArray *plhs[3])
+{
+  emlrtStack st{
+      nullptr, // site
+      nullptr, // tls
+      nullptr  // prev
+  };
+  real_T(*coefsj0)[6];
+  real_T a0;
+  real_T sf;
+  real_T tfj0;
+  real_T v0;
+  real_T vfj0;
+  real_T vfmax;
+  real_T vfmin;
+  st.tls = emlrtRootTLSGlobal;
+  coefsj0 = (real_T(*)[6])mxMalloc(sizeof(real_T[6]));
+  // Marshall function inputs
+  v0 = emlrt_marshallIn(st, emlrtAliasP(prhs[0]), "v0");
+  a0 = emlrt_marshallIn(st, emlrtAliasP(prhs[1]), "a0");
+  sf = emlrt_marshallIn(st, emlrtAliasP(prhs[2]), "sf");
+  vfmin = emlrt_marshallIn(st, emlrtAliasP(prhs[3]), "vfmin");
+  vfmax = emlrt_marshallIn(st, emlrtAliasP(prhs[4]), "vfmax");
+  // Invoke the target function
+  pass_primitive_j0(v0, a0, sf, vfmin, vfmax, *coefsj0, &vfj0, &tfj0);
+  // Marshall function outputs
+  plhs[0] = emlrt_marshallOut(*coefsj0);
+  if (nlhs > 1) {
+    plhs[1] = emlrt_marshallOut(vfj0);
+  }
+  if (nlhs > 2) {
+    plhs[2] = emlrt_marshallOut(tfj0);
   }
 }
 
@@ -500,6 +672,42 @@ void stop_primitive_api(const mxArray *const prhs[3], int32_T nlhs,
   }
   if (nlhs > 2) {
     plhs[2] = emlrt_marshallOut(tf);
+  }
+}
+
+//
+// Arguments    : const mxArray * const prhs[2]
+//                int32_T nlhs
+//                const mxArray *plhs[3]
+// Return Type  : void
+//
+void stop_primitive_j0_api(const mxArray *const prhs[2], int32_T nlhs,
+                           const mxArray *plhs[3])
+{
+  emlrtStack st{
+      nullptr, // site
+      nullptr, // tls
+      nullptr  // prev
+  };
+  real_T(*coefsj0)[6];
+  real_T a0;
+  real_T sfj0;
+  real_T tfj0;
+  real_T v0;
+  st.tls = emlrtRootTLSGlobal;
+  coefsj0 = (real_T(*)[6])mxMalloc(sizeof(real_T[6]));
+  // Marshall function inputs
+  v0 = emlrt_marshallIn(st, emlrtAliasP(prhs[0]), "v0");
+  a0 = emlrt_marshallIn(st, emlrtAliasP(prhs[1]), "a0");
+  // Invoke the target function
+  stop_primitive_j0(v0, a0, *coefsj0, &sfj0, &tfj0);
+  // Marshall function outputs
+  plhs[0] = emlrt_marshallOut(*coefsj0);
+  if (nlhs > 1) {
+    plhs[1] = emlrt_marshallOut(sfj0);
+  }
+  if (nlhs > 2) {
+    plhs[2] = emlrt_marshallOut(tfj0);
   }
 }
 

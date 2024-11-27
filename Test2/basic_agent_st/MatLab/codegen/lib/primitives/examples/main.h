@@ -5,7 +5,7 @@
 // File: main.h
 //
 // MATLAB Coder version            : 24.2
-// C/C++ source code generated on  : 22-Nov-2024 12:57:44
+// C/C++ source code generated on  : 27-Nov-2024 16:53:14
 //
 
 /*************************************************************************/
@@ -48,19 +48,31 @@ extern void main_a_opt();
 
 extern void main_coef_list();
 
+extern void main_final_opt_pos_stop_zero_jerk();
+
 extern void main_final_opt_time_pass();
+
+extern void main_final_opt_time_pass_zero_jerk();
 
 extern void main_final_opt_time_stop();
 
+extern void main_final_opt_time_stop_zero_jerk();
+
 extern void main_final_opt_vel_pass();
+
+extern void main_final_opt_vel_pass_zero_jerk();
 
 extern void main_j_opt();
 
 extern void main_pass_primitive();
 
+extern void main_pass_primitive_j0();
+
 extern void main_s_opt();
 
 extern void main_stop_primitive();
+
+extern void main_stop_primitive_j0();
 
 extern void main_time_min_vel();
 

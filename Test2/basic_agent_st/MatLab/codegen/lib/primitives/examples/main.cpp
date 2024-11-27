@@ -5,7 +5,7 @@
 // File: main.cpp
 //
 // MATLAB Coder version            : 24.2
-// C/C++ source code generated on  : 22-Nov-2024 12:57:44
+// C/C++ source code generated on  : 27-Nov-2024 16:53:14
 //
 
 /*************************************************************************/
@@ -64,13 +64,19 @@ int main(int, char **)
   // You can call entry-point functions multiple times.
   main_a_opt();
   main_coef_list();
+  main_final_opt_pos_stop_zero_jerk();
   main_final_opt_time_pass();
+  main_final_opt_time_pass_zero_jerk();
   main_final_opt_time_stop();
+  main_final_opt_time_stop_zero_jerk();
   main_final_opt_vel_pass();
+  main_final_opt_vel_pass_zero_jerk();
   main_j_opt();
   main_pass_primitive();
+  main_pass_primitive_j0();
   main_s_opt();
   main_stop_primitive();
+  main_stop_primitive_j0();
   main_time_min_vel();
   main_total_cost();
   main_v_opt();
@@ -111,6 +117,19 @@ void main_coef_list()
 // Arguments    : void
 // Return Type  : void
 //
+void main_final_opt_pos_stop_zero_jerk()
+{
+  double v0_tmp;
+  // Initialize function 'final_opt_pos_stop_zero_jerk' input arguments.
+  v0_tmp = argInit_real_T();
+  // Call the entry-point 'final_opt_pos_stop_zero_jerk'.
+  v0_tmp = final_opt_pos_stop_zero_jerk(v0_tmp, v0_tmp, v0_tmp);
+}
+
+//
+// Arguments    : void
+// Return Type  : void
+//
 void main_final_opt_time_pass()
 {
   double v0_tmp;
@@ -118,6 +137,21 @@ void main_final_opt_time_pass()
   v0_tmp = argInit_real_T();
   // Call the entry-point 'final_opt_time_pass'.
   v0_tmp = final_opt_time_pass(v0_tmp, v0_tmp, v0_tmp, v0_tmp);
+}
+
+//
+// Arguments    : void
+// Return Type  : void
+//
+void main_final_opt_time_pass_zero_jerk()
+{
+  double final_opt_time_pass_zero_jerk_var[2];
+  double v0_tmp;
+  // Initialize function 'final_opt_time_pass_zero_jerk' input arguments.
+  v0_tmp = argInit_real_T();
+  // Call the entry-point 'final_opt_time_pass_zero_jerk'.
+  final_opt_time_pass_zero_jerk(v0_tmp, v0_tmp, v0_tmp,
+                                final_opt_time_pass_zero_jerk_var);
 }
 
 //
@@ -137,6 +171,19 @@ void main_final_opt_time_stop()
 // Arguments    : void
 // Return Type  : void
 //
+void main_final_opt_time_stop_zero_jerk()
+{
+  double v0_tmp;
+  // Initialize function 'final_opt_time_stop_zero_jerk' input arguments.
+  v0_tmp = argInit_real_T();
+  // Call the entry-point 'final_opt_time_stop_zero_jerk'.
+  v0_tmp = final_opt_time_stop_zero_jerk(v0_tmp, v0_tmp);
+}
+
+//
+// Arguments    : void
+// Return Type  : void
+//
 void main_final_opt_vel_pass()
 {
   double v0_tmp;
@@ -144,6 +191,19 @@ void main_final_opt_vel_pass()
   v0_tmp = argInit_real_T();
   // Call the entry-point 'final_opt_vel_pass'.
   v0_tmp = final_opt_vel_pass(v0_tmp, v0_tmp, v0_tmp, v0_tmp);
+}
+
+//
+// Arguments    : void
+// Return Type  : void
+//
+void main_final_opt_vel_pass_zero_jerk()
+{
+  double v0_tmp;
+  // Initialize function 'final_opt_vel_pass_zero_jerk' input arguments.
+  v0_tmp = argInit_real_T();
+  // Call the entry-point 'final_opt_vel_pass_zero_jerk'.
+  v0_tmp = final_opt_vel_pass_zero_jerk(v0_tmp, v0_tmp, v0_tmp, v0_tmp);
 }
 
 //
@@ -183,6 +243,21 @@ void main_pass_primitive()
 // Arguments    : void
 // Return Type  : void
 //
+void main_pass_primitive_j0()
+{
+  double coefsj0[6];
+  double tfj0;
+  double vfj0;
+  // Initialize function 'pass_primitive_j0' input arguments.
+  vfj0 = argInit_real_T();
+  // Call the entry-point 'pass_primitive_j0'.
+  pass_primitive_j0(vfj0, vfj0, vfj0, vfj0, vfj0, coefsj0, &vfj0, &tfj0);
+}
+
+//
+// Arguments    : void
+// Return Type  : void
+//
 void main_s_opt()
 {
   double t_tmp;
@@ -205,6 +280,22 @@ void main_stop_primitive()
   maxsf = argInit_real_T();
   // Call the entry-point 'stop_primitive'.
   stop_primitive(maxsf, maxsf, maxsf, coefs, &maxsf, &tf);
+}
+
+//
+// Arguments    : void
+// Return Type  : void
+//
+void main_stop_primitive_j0()
+{
+  double coefsj0[6];
+  double sfj0;
+  double tfj0;
+  double v0_tmp;
+  // Initialize function 'stop_primitive_j0' input arguments.
+  v0_tmp = argInit_real_T();
+  // Call the entry-point 'stop_primitive_j0'.
+  stop_primitive_j0(v0_tmp, v0_tmp, coefsj0, &sfj0, &tfj0);
 }
 
 //

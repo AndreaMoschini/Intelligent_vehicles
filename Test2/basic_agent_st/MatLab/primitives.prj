@@ -1,5 +1,5 @@
 <deployment-project plugin="plugin.coder" plugin-version="R2024a">
-  <configuration build-checksum="3569139887" file="C:\Users\andry\Desktop\Universita\Magistrale\Secondo anno\Intelligent vehicles and autonomous driving\Intelligent_vehicles\Test2\basic_agent_st\MatLab\primitives.prj" location="C:\Users\andry\Desktop\Universita\Magistrale\Secondo anno\Intelligent vehicles and autonomous driving\Intelligent_vehicles\Test2\basic_agent_st\MatLab" name="primitives" target="target.unifiedcoder" target-name="MATLAB Coder">
+  <configuration build-checksum="2332219524" file="C:\Users\andry\Desktop\Universita\Magistrale\Secondo anno\Intelligent vehicles and autonomous driving\Intelligent_vehicles\Test2\basic_agent_st\MatLab\primitives.prj" location="C:\Users\andry\Desktop\Universita\Magistrale\Secondo anno\Intelligent vehicles and autonomous driving\Intelligent_vehicles\Test2\basic_agent_st\MatLab" name="primitives" target="target.unifiedcoder" target-name="MATLAB Coder">
     <profile key="profile.mex">
       <param.BuiltInstrumentedMex />
       <param.RanInstrumentedMex>false</param.RanInstrumentedMex>
@@ -629,22 +629,22 @@
     <param.AutoInferUnboundedSizeThreshold>2048</param.AutoInferUnboundedSizeThreshold>
     <param.EnableFixedPointStep>false</param.EnableFixedPointStep>
     <param.EnableScreener>true</param.EnableScreener>
-    <param.AnnotationChecksum>1386895656</param.AnnotationChecksum>
+    <param.AnnotationChecksum>2798912820</param.AnnotationChecksum>
     <var.LegacyTarget />
     <var.MirrorOnOpen>false</var.MirrorOnOpen>
     <param.FixedPointEnabled>false</param.FixedPointEnabled>
     <var.redirectedInputTypeData />
-    <var.DismissScreener>false</var.DismissScreener>
+    <var.DismissScreener>true</var.DismissScreener>
     <param.unifiedParamStorage />
     <param.hdlParamStorage />
     <var.gc.lastOutputRoot>codegen\lib\primitives</var.gc.lastOutputRoot>
     <var.gc.lastOutputType>C_CODE</var.gc.lastOutputType>
-    <var.gc.preBuildChecksum>431531983</var.gc.preBuildChecksum>
+    <var.gc.preBuildChecksum>2332219524</var.gc.preBuildChecksum>
     <var.cfi.lastOutputRoot />
     <var.cfi.preBuildChecksum />
     <var.outdatedOnRestore>false</var.outdatedOnRestore>
-    <var.lastUserSourceChecksum>&lt;?xml version="1.0" encoding="UTF-8" standalone="yes"?&gt;&lt;checksum&gt;&lt;includedFiles&gt;&lt;file&gt;C:\Users\andry\Desktop\Universita\Magistrale\Secondo anno\Intelligent vehicles and autonomous driving\Intelligent_vehicles\Test2\basic_agent_st\MatLab\a_opt.m&lt;/file&gt;&lt;file&gt;C:\Users\andry\Desktop\Universita\Magistrale\Secondo anno\Intelligent vehicles and autonomous driving\Intelligent_vehicles\Test2\basic_agent_st\MatLab\coef_list.m&lt;/file&gt;&lt;file&gt;C:\Users\andry\Desktop\Universita\Magistrale\Secondo anno\Intelligent vehicles and autonomous driving\Intelligent_vehicles\Test2\basic_agent_st\MatLab\final_opt_time_pass.m&lt;/file&gt;&lt;file&gt;C:\Users\andry\Desktop\Universita\Magistrale\Secondo anno\Intelligent vehicles and autonomous driving\Intelligent_vehicles\Test2\basic_agent_st\MatLab\final_opt_time_stop.m&lt;/file&gt;&lt;file&gt;C:\Users\andry\Desktop\Universita\Magistrale\Secondo anno\Intelligent vehicles and autonomous driving\Intelligent_vehicles\Test2\basic_agent_st\MatLab\final_opt_vel_pass.m&lt;/file&gt;&lt;file&gt;C:\Users\andry\Desktop\Universita\Magistrale\Secondo anno\Intelligent vehicles and autonomous driving\Intelligent_vehicles\Test2\basic_agent_st\MatLab\j_opt.m&lt;/file&gt;&lt;file&gt;C:\Users\andry\Desktop\Universita\Magistrale\Secondo anno\Intelligent vehicles and autonomous driving\Intelligent_vehicles\Test2\basic_agent_st\MatLab\pass_primitive.m&lt;/file&gt;&lt;file&gt;C:\Users\andry\Desktop\Universita\Magistrale\Secondo anno\Intelligent vehicles and autonomous driving\Intelligent_vehicles\Test2\basic_agent_st\MatLab\s_opt.m&lt;/file&gt;&lt;file&gt;C:\Users\andry\Desktop\Universita\Magistrale\Secondo anno\Intelligent vehicles and autonomous driving\Intelligent_vehicles\Test2\basic_agent_st\MatLab\stop_primitive.m&lt;/file&gt;&lt;file&gt;C:\Users\andry\Desktop\Universita\Magistrale\Secondo anno\Intelligent vehicles and autonomous driving\Intelligent_vehicles\Test2\basic_agent_st\MatLab\time_min_vel.m&lt;/file&gt;&lt;file&gt;C:\Users\andry\Desktop\Universita\Magistrale\Secondo anno\Intelligent vehicles and autonomous driving\Intelligent_vehicles\Test2\basic_agent_st\MatLab\total_cost.m&lt;/file&gt;&lt;file&gt;C:\Users\andry\Desktop\Universita\Magistrale\Secondo anno\Intelligent vehicles and autonomous driving\Intelligent_vehicles\Test2\basic_agent_st\MatLab\v_opt.m&lt;/file&gt;&lt;/includedFiles&gt;&lt;value&gt;79226618&lt;/value&gt;&lt;/checksum&gt;</var.lastUserSourceChecksum>
-    <var.sourceSetState>&lt;?xml version="1.0" encoding="UTF-8" standalone="yes"?&gt;&lt;sourceModel&gt;&lt;primarySourceFiles&gt;&lt;file&gt;C:\Users\andry\Desktop\Universita\Magistrale\Secondo anno\Intelligent vehicles and autonomous driving\Intelligent_vehicles\Test2\basic_agent_st\MatLab\a_opt.m&lt;/file&gt;&lt;file&gt;C:\Users\andry\Desktop\Universita\Magistrale\Secondo anno\Intelligent vehicles and autonomous driving\Intelligent_vehicles\Test2\basic_agent_st\MatLab\coef_list.m&lt;/file&gt;&lt;file&gt;C:\Users\andry\Desktop\Universita\Magistrale\Secondo anno\Intelligent vehicles and autonomous driving\Intelligent_vehicles\Test2\basic_agent_st\MatLab\final_opt_time_pass.m&lt;/file&gt;&lt;file&gt;C:\Users\andry\Desktop\Universita\Magistrale\Secondo anno\Intelligent vehicles and autonomous driving\Intelligent_vehicles\Test2\basic_agent_st\MatLab\final_opt_time_stop.m&lt;/file&gt;&lt;file&gt;C:\Users\andry\Desktop\Universita\Magistrale\Secondo anno\Intelligent vehicles and autonomous driving\Intelligent_vehicles\Test2\basic_agent_st\MatLab\final_opt_vel_pass.m&lt;/file&gt;&lt;file&gt;C:\Users\andry\Desktop\Universita\Magistrale\Secondo anno\Intelligent vehicles and autonomous driving\Intelligent_vehicles\Test2\basic_agent_st\MatLab\j_opt.m&lt;/file&gt;&lt;file&gt;C:\Users\andry\Desktop\Universita\Magistrale\Secondo anno\Intelligent vehicles and autonomous driving\Intelligent_vehicles\Test2\basic_agent_st\MatLab\pass_primitive.m&lt;/file&gt;&lt;file&gt;C:\Users\andry\Desktop\Universita\Magistrale\Secondo anno\Intelligent vehicles and autonomous driving\Intelligent_vehicles\Test2\basic_agent_st\MatLab\s_opt.m&lt;/file&gt;&lt;file&gt;C:\Users\andry\Desktop\Universita\Magistrale\Secondo anno\Intelligent vehicles and autonomous driving\Intelligent_vehicles\Test2\basic_agent_st\MatLab\stop_primitive.m&lt;/file&gt;&lt;file&gt;C:\Users\andry\Desktop\Universita\Magistrale\Secondo anno\Intelligent vehicles and autonomous driving\Intelligent_vehicles\Test2\basic_agent_st\MatLab\time_min_vel.m&lt;/file&gt;&lt;file&gt;C:\Users\andry\Desktop\Universita\Magistrale\Secondo anno\Intelligent vehicles and autonomous driving\Intelligent_vehicles\Test2\basic_agent_st\MatLab\total_cost.m&lt;/file&gt;&lt;file&gt;C:\Users\andry\Desktop\Universita\Magistrale\Secondo anno\Intelligent vehicles and autonomous driving\Intelligent_vehicles\Test2\basic_agent_st\MatLab\v_opt.m&lt;/file&gt;&lt;/primarySourceFiles&gt;&lt;fixedPointSourceFiles/&gt;&lt;fixedPointSourceRegistered&gt;false&lt;/fixedPointSourceRegistered&gt;&lt;fixedPointSourceSelected&gt;false&lt;/fixedPointSourceSelected&gt;&lt;/sourceModel&gt;</var.sourceSetState>
+    <var.lastUserSourceChecksum>&lt;?xml version="1.0" encoding="UTF-8" standalone="yes"?&gt;&lt;checksum&gt;&lt;includedFiles&gt;&lt;file&gt;C:\Users\andry\Desktop\Universita\Magistrale\Secondo anno\Intelligent vehicles and autonomous driving\Intelligent_vehicles\Test2\basic_agent_st\MatLab\a_opt.m&lt;/file&gt;&lt;file&gt;C:\Users\andry\Desktop\Universita\Magistrale\Secondo anno\Intelligent vehicles and autonomous driving\Intelligent_vehicles\Test2\basic_agent_st\MatLab\coef_list.m&lt;/file&gt;&lt;file&gt;C:\Users\andry\Desktop\Universita\Magistrale\Secondo anno\Intelligent vehicles and autonomous driving\Intelligent_vehicles\Test2\basic_agent_st\MatLab\final_opt_pos_stop_zero_jerk.m&lt;/file&gt;&lt;file&gt;C:\Users\andry\Desktop\Universita\Magistrale\Secondo anno\Intelligent vehicles and autonomous driving\Intelligent_vehicles\Test2\basic_agent_st\MatLab\final_opt_time_pass.m&lt;/file&gt;&lt;file&gt;C:\Users\andry\Desktop\Universita\Magistrale\Secondo anno\Intelligent vehicles and autonomous driving\Intelligent_vehicles\Test2\basic_agent_st\MatLab\final_opt_time_pass_zero_jerk.m&lt;/file&gt;&lt;file&gt;C:\Users\andry\Desktop\Universita\Magistrale\Secondo anno\Intelligent vehicles and autonomous driving\Intelligent_vehicles\Test2\basic_agent_st\MatLab\final_opt_time_stop.m&lt;/file&gt;&lt;file&gt;C:\Users\andry\Desktop\Universita\Magistrale\Secondo anno\Intelligent vehicles and autonomous driving\Intelligent_vehicles\Test2\basic_agent_st\MatLab\final_opt_time_stop_zero_jerk.m&lt;/file&gt;&lt;file&gt;C:\Users\andry\Desktop\Universita\Magistrale\Secondo anno\Intelligent vehicles and autonomous driving\Intelligent_vehicles\Test2\basic_agent_st\MatLab\final_opt_vel_pass.m&lt;/file&gt;&lt;file&gt;C:\Users\andry\Desktop\Universita\Magistrale\Secondo anno\Intelligent vehicles and autonomous driving\Intelligent_vehicles\Test2\basic_agent_st\MatLab\final_opt_vel_pass_zero_jerk.m&lt;/file&gt;&lt;file&gt;C:\Users\andry\Desktop\Universita\Magistrale\Secondo anno\Intelligent vehicles and autonomous driving\Intelligent_vehicles\Test2\basic_agent_st\MatLab\j_opt.m&lt;/file&gt;&lt;file&gt;C:\Users\andry\Desktop\Universita\Magistrale\Secondo anno\Intelligent vehicles and autonomous driving\Intelligent_vehicles\Test2\basic_agent_st\MatLab\pass_primitive.m&lt;/file&gt;&lt;file&gt;C:\Users\andry\Desktop\Universita\Magistrale\Secondo anno\Intelligent vehicles and autonomous driving\Intelligent_vehicles\Test2\basic_agent_st\MatLab\pass_primitive_j0.m&lt;/file&gt;&lt;file&gt;C:\Users\andry\Desktop\Universita\Magistrale\Secondo anno\Intelligent vehicles and autonomous driving\Intelligent_vehicles\Test2\basic_agent_st\MatLab\s_opt.m&lt;/file&gt;&lt;file&gt;C:\Users\andry\Desktop\Universita\Magistrale\Secondo anno\Intelligent vehicles and autonomous driving\Intelligent_vehicles\Test2\basic_agent_st\MatLab\stop_primitive.m&lt;/file&gt;&lt;file&gt;C:\Users\andry\Desktop\Universita\Magistrale\Secondo anno\Intelligent vehicles and autonomous driving\Intelligent_vehicles\Test2\basic_agent_st\MatLab\stop_primitive_j0.m&lt;/file&gt;&lt;file&gt;C:\Users\andry\Desktop\Universita\Magistrale\Secondo anno\Intelligent vehicles and autonomous driving\Intelligent_vehicles\Test2\basic_agent_st\MatLab\time_min_vel.m&lt;/file&gt;&lt;file&gt;C:\Users\andry\Desktop\Universita\Magistrale\Secondo anno\Intelligent vehicles and autonomous driving\Intelligent_vehicles\Test2\basic_agent_st\MatLab\total_cost.m&lt;/file&gt;&lt;file&gt;C:\Users\andry\Desktop\Universita\Magistrale\Secondo anno\Intelligent vehicles and autonomous driving\Intelligent_vehicles\Test2\basic_agent_st\MatLab\v_opt.m&lt;/file&gt;&lt;/includedFiles&gt;&lt;value&gt;3835944843&lt;/value&gt;&lt;/checksum&gt;</var.lastUserSourceChecksum>
+    <var.sourceSetState>&lt;?xml version="1.0" encoding="UTF-8" standalone="yes"?&gt;&lt;sourceModel&gt;&lt;primarySourceFiles&gt;&lt;file&gt;C:\Users\andry\Desktop\Universita\Magistrale\Secondo anno\Intelligent vehicles and autonomous driving\Intelligent_vehicles\Test2\basic_agent_st\MatLab\a_opt.m&lt;/file&gt;&lt;file&gt;C:\Users\andry\Desktop\Universita\Magistrale\Secondo anno\Intelligent vehicles and autonomous driving\Intelligent_vehicles\Test2\basic_agent_st\MatLab\coef_list.m&lt;/file&gt;&lt;file&gt;C:\Users\andry\Desktop\Universita\Magistrale\Secondo anno\Intelligent vehicles and autonomous driving\Intelligent_vehicles\Test2\basic_agent_st\MatLab\final_opt_pos_stop_zero_jerk.m&lt;/file&gt;&lt;file&gt;C:\Users\andry\Desktop\Universita\Magistrale\Secondo anno\Intelligent vehicles and autonomous driving\Intelligent_vehicles\Test2\basic_agent_st\MatLab\final_opt_time_pass.m&lt;/file&gt;&lt;file&gt;C:\Users\andry\Desktop\Universita\Magistrale\Secondo anno\Intelligent vehicles and autonomous driving\Intelligent_vehicles\Test2\basic_agent_st\MatLab\final_opt_time_pass_zero_jerk.m&lt;/file&gt;&lt;file&gt;C:\Users\andry\Desktop\Universita\Magistrale\Secondo anno\Intelligent vehicles and autonomous driving\Intelligent_vehicles\Test2\basic_agent_st\MatLab\final_opt_time_stop.m&lt;/file&gt;&lt;file&gt;C:\Users\andry\Desktop\Universita\Magistrale\Secondo anno\Intelligent vehicles and autonomous driving\Intelligent_vehicles\Test2\basic_agent_st\MatLab\final_opt_time_stop_zero_jerk.m&lt;/file&gt;&lt;file&gt;C:\Users\andry\Desktop\Universita\Magistrale\Secondo anno\Intelligent vehicles and autonomous driving\Intelligent_vehicles\Test2\basic_agent_st\MatLab\final_opt_vel_pass.m&lt;/file&gt;&lt;file&gt;C:\Users\andry\Desktop\Universita\Magistrale\Secondo anno\Intelligent vehicles and autonomous driving\Intelligent_vehicles\Test2\basic_agent_st\MatLab\final_opt_vel_pass_zero_jerk.m&lt;/file&gt;&lt;file&gt;C:\Users\andry\Desktop\Universita\Magistrale\Secondo anno\Intelligent vehicles and autonomous driving\Intelligent_vehicles\Test2\basic_agent_st\MatLab\j_opt.m&lt;/file&gt;&lt;file&gt;C:\Users\andry\Desktop\Universita\Magistrale\Secondo anno\Intelligent vehicles and autonomous driving\Intelligent_vehicles\Test2\basic_agent_st\MatLab\pass_primitive.m&lt;/file&gt;&lt;file&gt;C:\Users\andry\Desktop\Universita\Magistrale\Secondo anno\Intelligent vehicles and autonomous driving\Intelligent_vehicles\Test2\basic_agent_st\MatLab\pass_primitive_j0.m&lt;/file&gt;&lt;file&gt;C:\Users\andry\Desktop\Universita\Magistrale\Secondo anno\Intelligent vehicles and autonomous driving\Intelligent_vehicles\Test2\basic_agent_st\MatLab\s_opt.m&lt;/file&gt;&lt;file&gt;C:\Users\andry\Desktop\Universita\Magistrale\Secondo anno\Intelligent vehicles and autonomous driving\Intelligent_vehicles\Test2\basic_agent_st\MatLab\stop_primitive.m&lt;/file&gt;&lt;file&gt;C:\Users\andry\Desktop\Universita\Magistrale\Secondo anno\Intelligent vehicles and autonomous driving\Intelligent_vehicles\Test2\basic_agent_st\MatLab\stop_primitive_j0.m&lt;/file&gt;&lt;file&gt;C:\Users\andry\Desktop\Universita\Magistrale\Secondo anno\Intelligent vehicles and autonomous driving\Intelligent_vehicles\Test2\basic_agent_st\MatLab\time_min_vel.m&lt;/file&gt;&lt;file&gt;C:\Users\andry\Desktop\Universita\Magistrale\Secondo anno\Intelligent vehicles and autonomous driving\Intelligent_vehicles\Test2\basic_agent_st\MatLab\total_cost.m&lt;/file&gt;&lt;file&gt;C:\Users\andry\Desktop\Universita\Magistrale\Secondo anno\Intelligent vehicles and autonomous driving\Intelligent_vehicles\Test2\basic_agent_st\MatLab\v_opt.m&lt;/file&gt;&lt;/primarySourceFiles&gt;&lt;fixedPointSourceFiles/&gt;&lt;fixedPointSourceRegistered&gt;false&lt;/fixedPointSourceRegistered&gt;&lt;fixedPointSourceSelected&gt;false&lt;/fixedPointSourceSelected&gt;&lt;/sourceModel&gt;</var.sourceSetState>
     <param.forceMexBuild>false</param.forceMexBuild>
     <param.NoDefaultJIT>false</param.NoDefaultJIT>
     <param.configImportActive>false</param.configImportActive>
@@ -690,8 +690,8 @@
     <param.deeplearning.DeepLearningCustomCallback />
     <param.deeplearning.TargetLib>option.deeplearning.targetlibrary.none</param.deeplearning.TargetLib>
     <var.cfiTargetLibSuppression>false</var.cfiTargetLibSuppression>
-    <var.hasMatlabDeepLearningSupportPackage>false</var.hasMatlabDeepLearningSupportPackage>
-    <var.hasGpuDeepLearningSupportPackage>false</var.hasGpuDeepLearningSupportPackage>
+    <var.hasMatlabDeepLearningSupportPackage>true</var.hasMatlabDeepLearningSupportPackage>
+    <var.hasGpuDeepLearningSupportPackage>true</var.hasGpuDeepLearningSupportPackage>
     <param.tensorrt.DataType>option.tensorrt.datatype.fp32</param.tensorrt.DataType>
     <param.tensorrt.DataPath />
     <param.tensorrt.NumCalibrationBatches>0</param.tensorrt.NumCalibrationBatches>
@@ -778,7 +778,6 @@
       <var.MirrorOnOpen />
       <param.FixedPointEnabled />
       <var.redirectedInputTypeData />
-      <var.DismissScreener />
       <param.unifiedParamStorage />
       <param.hdlParamStorage />
       <var.cfi.lastOutputRoot />
@@ -825,6 +824,8 @@
       <param.deeplearning.DeepLearningCustomCallback />
       <param.deeplearning.TargetLib />
       <var.cfiTargetLibSuppression />
+      <var.hasMatlabDeepLearningSupportPackage />
+      <var.hasGpuDeepLearningSupportPackage />
       <param.tensorrt.DataType />
       <param.tensorrt.DataPath />
       <param.tensorrt.NumCalibrationBatches />
@@ -888,40 +889,58 @@
     </unset>
     <fileset.entrypoints>
       <file custom-data-expanded="false" value="${PROJECT_ROOT}\a_opt.m">
-        <Marker>1732276582298</Marker>
+        <Marker>1732722474767</Marker>
       </file>
       <file custom-data-expanded="false" value="${PROJECT_ROOT}\coef_list.m">
-        <Marker>1732276584429</Marker>
+        <Marker>1732722477519</Marker>
+      </file>
+      <file custom-data-expanded="false" value="${PROJECT_ROOT}\final_opt_pos_stop_zero_jerk.m">
+        <Marker>1732722481294</Marker>
       </file>
       <file custom-data-expanded="false" value="${PROJECT_ROOT}\final_opt_time_pass.m">
-        <Marker>1732276586629</Marker>
+        <Marker>1732722484730</Marker>
+      </file>
+      <file custom-data-expanded="false" value="${PROJECT_ROOT}\final_opt_time_pass_zero_jerk.m">
+        <Marker>1732722487404</Marker>
       </file>
       <file custom-data-expanded="false" value="${PROJECT_ROOT}\final_opt_time_stop.m">
-        <Marker>1732276589036</Marker>
+        <Marker>1732722489881</Marker>
+      </file>
+      <file custom-data-expanded="false" value="${PROJECT_ROOT}\final_opt_time_stop_zero_jerk.m">
+        <Marker>1732722492721</Marker>
       </file>
       <file custom-data-expanded="false" value="${PROJECT_ROOT}\final_opt_vel_pass.m">
-        <Marker>1732276590972</Marker>
+        <Marker>1732722495509</Marker>
+      </file>
+      <file custom-data-expanded="false" value="${PROJECT_ROOT}\final_opt_vel_pass_zero_jerk.m">
+        <Marker>1732722499692</Marker>
       </file>
       <file custom-data-expanded="false" value="${PROJECT_ROOT}\j_opt.m">
-        <Marker>1732276593492</Marker>
+        <Marker>1732722502545</Marker>
       </file>
       <file custom-data-expanded="false" value="${PROJECT_ROOT}\pass_primitive.m">
-        <Marker>1732276596766</Marker>
+        <Marker>1732722505433</Marker>
+      </file>
+      <file custom-data-expanded="false" value="${PROJECT_ROOT}\pass_primitive_j0.m">
+        <Marker>1732722508176</Marker>
       </file>
       <file custom-data-expanded="false" value="${PROJECT_ROOT}\s_opt.m">
-        <Marker>1732276600077</Marker>
+        <Marker>1732722510861</Marker>
       </file>
       <file custom-data-expanded="false" value="${PROJECT_ROOT}\stop_primitive.m">
-        <Marker>1732276603228</Marker>
+        <Marker>1732722514189</Marker>
+      </file>
+      <file custom-data-expanded="false" value="${PROJECT_ROOT}\stop_primitive_j0.m">
+        <Marker>1732722517725</Marker>
       </file>
       <file custom-data-expanded="false" value="${PROJECT_ROOT}\time_min_vel.m">
-        <Marker>1732276605756</Marker>
+        <Marker>1732722520801</Marker>
       </file>
       <file custom-data-expanded="false" value="${PROJECT_ROOT}\total_cost.m">
-        <Marker>1732276608047</Marker>
+        <Marker>1732722525253</Marker>
       </file>
       <file custom-data-expanded="false" value="${PROJECT_ROOT}\v_opt.m">
-        <Marker>1732276610204</Marker>
+        <Marker>1732722528591</Marker>
       </file>
     </fileset.entrypoints>
     <fileset.testbench />
@@ -969,12 +988,48 @@
           </idpTable>
         </Inputs>
       </file>
+      <file custom-data-expanded="false" value="${PROJECT_ROOT}\final_opt_pos_stop_zero_jerk.m">
+        <Inputs fileName="final_opt_pos_stop_zero_jerk.m" functionName="final_opt_pos_stop_zero_jerk">
+          <Input Name="v0" typeId="0" />
+          <Input Name="a0" typeId="0" />
+          <Input Name="T" typeId="0" />
+          <idpTable>
+            <type typeId="0">
+              <Class>double</Class>
+              <Size>1 x 1</Size>
+              <Value />
+              <InitialValue />
+              <UserDefined>true</UserDefined>
+              <Complex>false</Complex>
+              <Sparse>false</Sparse>
+            </type>
+          </idpTable>
+        </Inputs>
+      </file>
       <file custom-data-expanded="false" value="${PROJECT_ROOT}\final_opt_time_pass.m">
         <Inputs fileName="final_opt_time_pass.m" functionName="final_opt_time_pass">
           <Input Name="v0" typeId="0" />
           <Input Name="a0" typeId="0" />
           <Input Name="sf" typeId="0" />
           <Input Name="vf" typeId="0" />
+          <idpTable>
+            <type typeId="0">
+              <Class>double</Class>
+              <Size>1 x 1</Size>
+              <Value />
+              <InitialValue />
+              <UserDefined>true</UserDefined>
+              <Complex>false</Complex>
+              <Sparse>false</Sparse>
+            </type>
+          </idpTable>
+        </Inputs>
+      </file>
+      <file custom-data-expanded="false" value="${PROJECT_ROOT}\final_opt_time_pass_zero_jerk.m">
+        <Inputs fileName="final_opt_time_pass_zero_jerk.m" functionName="final_opt_time_pass_zero_jerk">
+          <Input Name="v0" typeId="0" />
+          <Input Name="a0" typeId="0" />
+          <Input Name="sf" typeId="0" />
           <idpTable>
             <type typeId="0">
               <Class>double</Class>
@@ -1006,8 +1061,44 @@
           </idpTable>
         </Inputs>
       </file>
+      <file custom-data-expanded="false" value="${PROJECT_ROOT}\final_opt_time_stop_zero_jerk.m">
+        <Inputs fileName="final_opt_time_stop_zero_jerk.m" functionName="final_opt_time_stop_zero_jerk">
+          <Input Name="v0" typeId="0" />
+          <Input Name="a0" typeId="0" />
+          <idpTable>
+            <type typeId="0">
+              <Class>double</Class>
+              <Size>1 x 1</Size>
+              <Value />
+              <InitialValue />
+              <UserDefined>true</UserDefined>
+              <Complex>false</Complex>
+              <Sparse>false</Sparse>
+            </type>
+          </idpTable>
+        </Inputs>
+      </file>
       <file custom-data-expanded="false" value="${PROJECT_ROOT}\final_opt_vel_pass.m">
         <Inputs fileName="final_opt_vel_pass.m" functionName="final_opt_vel_pass">
+          <Input Name="v0" typeId="0" />
+          <Input Name="a0" typeId="0" />
+          <Input Name="sf" typeId="0" />
+          <Input Name="T" typeId="0" />
+          <idpTable>
+            <type typeId="0">
+              <Class>double</Class>
+              <Size>1 x 1</Size>
+              <Value />
+              <InitialValue />
+              <UserDefined>true</UserDefined>
+              <Complex>false</Complex>
+              <Sparse>false</Sparse>
+            </type>
+          </idpTable>
+        </Inputs>
+      </file>
+      <file custom-data-expanded="false" value="${PROJECT_ROOT}\final_opt_vel_pass_zero_jerk.m">
+        <Inputs fileName="final_opt_vel_pass_zero_jerk.m" functionName="final_opt_vel_pass_zero_jerk">
           <Input Name="v0" typeId="0" />
           <Input Name="a0" typeId="0" />
           <Input Name="sf" typeId="0" />
@@ -1069,6 +1160,26 @@
           </idpTable>
         </Inputs>
       </file>
+      <file custom-data-expanded="false" value="${PROJECT_ROOT}\pass_primitive_j0.m">
+        <Inputs fileName="pass_primitive_j0.m" functionName="pass_primitive_j0">
+          <Input Name="v0" typeId="0" />
+          <Input Name="a0" typeId="0" />
+          <Input Name="sf" typeId="0" />
+          <Input Name="vfmin" typeId="0" />
+          <Input Name="vfmax" typeId="0" />
+          <idpTable>
+            <type typeId="0">
+              <Class>double</Class>
+              <Size>1 x 1</Size>
+              <Value />
+              <InitialValue />
+              <UserDefined>true</UserDefined>
+              <Complex>false</Complex>
+              <Sparse>false</Sparse>
+            </type>
+          </idpTable>
+        </Inputs>
+      </file>
       <file custom-data-expanded="false" value="${PROJECT_ROOT}\s_opt.m">
         <Inputs fileName="s_opt.m" functionName="s_opt">
           <Input Name="t" typeId="0" />
@@ -1096,6 +1207,23 @@
           <Input Name="v0" typeId="0" />
           <Input Name="a0" typeId="0" />
           <Input Name="sf" typeId="0" />
+          <idpTable>
+            <type typeId="0">
+              <Class>double</Class>
+              <Size>1 x 1</Size>
+              <Value />
+              <InitialValue />
+              <UserDefined>true</UserDefined>
+              <Complex>false</Complex>
+              <Sparse>false</Sparse>
+            </type>
+          </idpTable>
+        </Inputs>
+      </file>
+      <file custom-data-expanded="false" value="${PROJECT_ROOT}\stop_primitive_j0.m">
+        <Inputs fileName="stop_primitive_j0.m" functionName="stop_primitive_j0">
+          <Input Name="v0" typeId="0" />
+          <Input Name="a0" typeId="0" />
           <idpTable>
             <type typeId="0">
               <Class>double</Class>

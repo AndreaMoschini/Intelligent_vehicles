@@ -5,7 +5,7 @@
 // File: _coder_primitives_info.h
 //
 // MATLAB Coder version            : 24.2
-// C/C++ source code generated on  : 22-Nov-2024 12:57:44
+// C/C++ source code generated on  : 27-Nov-2024 16:53:14
 //
 
 #ifndef _CODER_PRIMITIVES_INFO_H
